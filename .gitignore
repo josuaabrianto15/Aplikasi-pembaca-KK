@@ -1,0 +1,36 @@
+# ── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Backend DB & uploads
+backend/kk_database.db
+backend/uploads/
+
+# Backend .env
+backend/.env
+
+# ── Node / Next.js ────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.git.local-backup/
+
+# ── OS / Editor ───────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
